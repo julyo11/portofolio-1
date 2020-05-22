@@ -90,3 +90,83 @@ footer p i{
     color: whitesmoke;
 }
 
+.row .thumbnail:hover{
+    opacity: 0.5;
+}
+
+.col-sm-4{
+    border-radius: 50px;
+}
+
+
+/* overlay */
+/* .overlay{
+    position: fixed;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0);
+    z-index: 99999999999999999999999999999px;
+    transition: 0.5s;
+    text-align: center;
+    padding: 75px;
+}
+
+.overlay:target{
+    width: auto;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.overlay img{
+    max-height: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+.overlay:target img{
+    animation: zoom 1s;
+}
+
+.overlay .close{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -30px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid white;
+    line-height: 15px;
+}
+
+.overlay:target .close{
+    animation: close 0.5s 0.5s forwards;
+}
+
+/* transition */
+/* @keyframes zoom{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+@keyframes close{
+    0%{
+        opacity: 0;
+        margin-top: -20px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0;
+    }
+} */ 
+
