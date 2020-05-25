@@ -1,13 +1,13 @@
-html{
+html {
     position: relative;
 }
 
-body{
+body {
     margin-bottom: 100px;
     margin-top: 30px;
 }
 
-.jumbotron{
+.jumbotron {
     height: 450px;
     background-image: url('../img/keyboard.jpg');
     background-attachment: fixed;
@@ -17,15 +17,16 @@ body{
     overflow: hidden;
 }
 
-.jumbotron h1, .jumbotron p{
-    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
-.jumbotron img{
+.jumbotron img {
     width: 200px;
     height: 200px;
     border: 5px solid #eaeaea;
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 hr {
@@ -33,45 +34,47 @@ hr {
     border-top: 4px solid #666;
 }
 
-section{
+section {
     min-height: 600px;
 }
 
-.pKiri, .pKanan{
+.pKiri,
+.pKanan {
     opacity: 0;
     transform: translate(-50px, 0) rotate(15deg);
     transition: 1s;
 }
 
-.pKanan{
+.pKanan {
     transform: translate(50px, 0) rotate(-15deg);
 }
 
-.pKiri.pMuncul, .pKanan.pMuncul{
+.pKiri.pMuncul,
+.pKanan.pMuncul {
     opacity: 1;
-    transform: translate(0,0);
+    transform: translate(0, 0);
 }
 
-.portofolio{
+.portofolio {
     background-color: #eee;
 }
 
-.portofolio .thumbnail{
+.portofolio .thumbnail {
     opacity: 0;
     transform: translate(0, -40px);
     transition: .5s;
 }
 
-.portofolio .thumbnail.muncul{
+.portofolio .thumbnail.muncul {
     opacity: 1;
-    transform: translate(0,0);
+    transform: translate(0, 0);
 }
 
-.contact{
+.contact {
     min-height: 800px;
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -80,22 +83,23 @@ footer{
     color: white;
 }
 
-footer p{
+footer p {
     color: white;
     font-size: 0.9em;
     padding-top: 40px;
 }
 
-footer p i{
+footer p i {
     color: whitesmoke;
 }
 
-.row .thumbnail:hover{
+.row .thumbnail:hover {
     opacity: 0.5;
 }
 
-.col-sm-4{
+.col-sm-4 {
     border-radius: 50px;
+    transition: ease;
 }
 
 
@@ -168,5 +172,4 @@ footer p i{
         opacity: 1;
         margin-top: 0;
     }
-} */ 
-
+} */
